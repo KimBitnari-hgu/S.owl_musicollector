@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>musicollector</title>
+<link rel="stylesheet" type="text/css" href="C:\Users\admin\Desktop\SOUL\01_뮤지컬렉터 프로젝트\style.css" />
+<script type="text/javascript" src="C:\Users\admin\Desktop\SOUL\01_뮤지컬렉터 프로젝트\packed.js"></script>
+
+</head>
+<body>
+
+	<section data-role="page">
+	    <header data-role="header">
+	                <h1 style="color:#ff7f50; padding:30px 2px 0 580px; font-size:45px ">Musicollector</h1>
+	                <h4 style="color:white; padding:0 2px 0 1300px"><a href=" " style="color:white;">로그인</a> || <a href=" " style="color:white;">회원가입</a></h4>
+	    </header>
+
+<div id="wrapper">
+	<div>
+		<div class="sliderbutton"><img src="C:\Users\admin\Desktop\SOUL\01_뮤지컬렉터 프로젝트\이미지\left.gif" width="32" height="38" alt="Previous" onclick="slideshow.move(-1)" /></div>
+		<div id="slider">
+			<ul>
+
+        <li><img scr="C:\Users\admin\Desktop\SOUL\01_뮤지컬렉터 프로젝트\이미지\아이다gif.jpg" width="500" height="600" alt="여신님이보고계셔" /></li>
+				<li><img src="C:\Users\admin\Desktop\SOUL\01_뮤지컬렉터 프로젝트\이미지\영웅본색.jpg" width="500" height="600" alt="Sea turtle" /></li>
+				<li><img src="C:\Users\admin\Desktop\SOUL\01_뮤지컬렉터 프로젝트\이미지\보디가드.jpg" width="500" height="600" alt="Coral Reef" /></li>
+				<li><img src="C:\Users\admin\Desktop\SOUL\01_뮤지컬렉터 프로젝트\이미지\웃는남자.jpg" width="500" height="600" alt="Blue Fish" /></li>
+			</ul>
+		</div>
+		<div class="sliderbutton"><img src="C:\Users\admin\Desktop\SOUL\01_뮤지컬렉터 프로젝트\이미지\right.gif" width="32" height="38" alt="Next" onclick="slideshow.move(1)" /></div>
+	</div>
+	<ul id="pagination" class="pagination">
+		<li onclick="slideshow.pos(0)">1</li>
+		<li onclick="slideshow.pos(1)">2</li>
+		<li onclick="slideshow.pos(2)">3</li>
+		<li onclick="slideshow.pos(3)">4</li>
+	</ul>
+</div>
+<script type="text/javascript">
+var slideshow=new TINY.slider.slide('slideshow',{
+	id:'slider',
+	auto:3,
+	resume:true,
+	vertical:false,
+	navid:'pagination',
+	activeclass:'current',
+	position:0
+});
+</script>
+
+<article data-role="content">
+
+
+    <div style="border:2px solid; padding:20px; float:right; margin:0px; color:white; font-size: 20px;">
+       <p><a href=" " style="color:white;" > >>> 더 많은 뮤지컬 보러가기
+       </a></p>
+   </div>
+ </article>
+
+
+</body>
+</html>
